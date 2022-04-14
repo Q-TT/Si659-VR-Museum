@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657892, g: 0.4964128, b: 0.5748173, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1915,6 +1915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PressableButtonHoloLens2_32x96 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3126786008848669196, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3126786009469193090, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2842,6 +2846,10 @@ PrefabInstance:
     - target: {fileID: 3126786008848669196, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: m_Name
       value: PressableButtonHoloLens2_32x96 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126786008848669196, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3126786009469193090, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: m_Mesh
@@ -4383,13 +4391,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3126786009469193212, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: m_text
-      value: 'Choice Dialog
-
-        Medium / Far'
+      value: "Add this art piece \nto my acclount"
       objectReference: {fileID: 0}
     - target: {fileID: 3126786009469193212, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: m_textAlignment
       value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126786009469193212, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
       objectReference: {fileID: 0}
     - target: {fileID: 3126786009469193212, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: m_VerticalAlignment
@@ -4469,19 +4479,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3640519426667357854, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.096
+      value: 0.035
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640519426667357854, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0042
       objectReference: {fileID: 0}
     - target: {fileID: 4707993670919958581, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: 937867e9be7912d4a903cd401ee0a959, type: 3}
+      objectReference: {fileID: 2800000, guid: ea677436af9004848a7f20878e38257c, type: 3}
+    - target: {fileID: 5487525929659315375, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487525929659315375, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5487525929659315375, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 355592091}
     - target: {fileID: 5487525929659315375, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487525929659315375, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487525929659315375, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OpenChoiceDialogMedium
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487525929659315375, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487525929659315375, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6055314345997109590, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: m_textInfo.lineCount
@@ -9779,13 +9817,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3126786009469193212, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: m_text
-      value: 'Confirmation Dialog
+      value: 'Check this art piece''s
 
-        Medium / Near'
+        selling history'
       objectReference: {fileID: 0}
     - target: {fileID: 3126786009469193212, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: m_textAlignment
       value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126786009469193212, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
       objectReference: {fileID: 0}
     - target: {fileID: 3126786009469193212, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: m_VerticalAlignment
@@ -9869,16 +9911,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3640519426667357854, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.096
+      value: 0.035
       objectReference: {fileID: 0}
     - target: {fileID: 3640519426667357854, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3640519426667357854, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0042
+      objectReference: {fileID: 0}
     - target: {fileID: 4707993670919958581, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: 937867e9be7912d4a903cd401ee0a959, type: 3}
+      objectReference: {fileID: 2800000, guid: 7de780622ddab5e49b73d5d7a806faf9, type: 3}
     - target: {fileID: 5487525929659315375, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -9934,7 +9980,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066286086}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.087, y: -0.93, z: 0.021}
+  m_LocalPosition: {x: -0.118, y: -1.361, z: 0.018}
   m_LocalScale: {x: 3.667213, y: 3.6672127, z: 3.667213}
   m_Children:
   - {fileID: 566802028}
@@ -10639,30 +10685,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2113875699234556495, guid: 18470d71939382448be2ecd06efa9662, type: 3}
       propertyPath: m_text
-      value: '<size=42><b>Painting Description</b></size>
-
-
-        This scene demonstrates
-        use of the Dialog control. <color=yellow>DialogExampleController.cs</color>
-        shows how to open Dialog controls in the code. You can specify the title,
-        description text, and the placement location - near or far. Use near placement
-        option for HoloLens 2.
-
-
-        <size="32"><b>Artist Info</b></size>
-
-        DialogLarge_192x192.prefab
-
-        DialogMedium_192x128
-
-        DialogSmall_192x96.prefab
-
-
-        <size="32"><b>Selling
-        History</b></size>
-
-        Use these buttons to open dialog examples. See
-        DialogExampleController.cs to see the details.'
+      value: "<size=42><b>Painting Description</b></size>\n\nMonet's light, spontaneous
+        brushwork creates splashes of colour. Mrs Monet's veil is blown by the wind,
+        as is her billowing white dress; the waving grass of the meadow is echoed
+        by the green underside of her parasol. She is seen as if from below, with
+        a strong upward perspective, against fluffy white clouds in an azure sky.
+        A boy, the Monet's seven-year-old son, is placed further away, concealed
+        behind a rise in the ground and visible only from the waist up, creating
+        a sense of depth. \n\nThe work is a genre painting of an everyday family
+        scene, not a formal portrait. The work was painted outdoors, en plein air,
+        and quickly, probably in a single period of a few hours[1] It measures 100
+        \xD7 81 centimetres (39 \xD7 32 in), Monet's largest work in the 1870s, and
+        is signed \"Claude Monet 75\" in the lower right corner.\n\n<size=\"32\"><b>Artist
+        Info</b></size>\n<size=\"25\"><b>Oscar-Claude Monet</b></size>: 14 November
+        1840 \u2013 5 December 1926) was a French painter and founder of impressionist
+        painting who is seen as a key precursor to modernism, especially in his attempts
+        to paint nature as he perceived it. During his long career, he was the most
+        consistent and prolific practitioner of impressionism's philosophy of expressing
+        one's perceptions before nature, especially as applied to plein air (outdoor)
+        landscape painting.\n\n<size=\"32\"><b>History</b></size>\nThe painting was
+        one of 18 works by Monet exhibited at the second Impressionist exhibition
+        in April 1876, at the gallery of Paul Durand-Ruel. Ten years later, Monet
+        returned to a similar subject, painting a pair of scenes featuring his second
+        wife's daughter Suzanne Monet in 1886 with a parasol in a meadow at Giverny;
+        they are in the Mus\xE9e d'Orsay. John Singer Sargent saw the painting at
+        the exhibition in 1876 and was later inspired to create a similar painting,
+        Two Girls with Parasols at Fladbury, in 1889."
       objectReference: {fileID: 0}
     - target: {fileID: 2113875699234556495, guid: 18470d71939382448be2ecd06efa9662, type: 3}
       propertyPath: m_textAlignment
@@ -10702,7 +10750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2652140712778390387, guid: 18470d71939382448be2ecd06efa9662, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2127256
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 2652140712778390387, guid: 18470d71939382448be2ecd06efa9662, type: 3}
       propertyPath: m_LocalScale.z
@@ -15298,7 +15346,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745012313}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.06, y: -0.93, z: 0.021}
+  m_LocalPosition: {x: -0.034, y: -1.361, z: 0.023}
   m_LocalScale: {x: 3.667213, y: 3.6672127, z: 3.667213}
   m_Children:
   - {fileID: 1018548710}
@@ -17208,6 +17256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PressableButtonHoloLens2_32x96 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3126786008848669196, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3126786009469193090, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -17817,8 +17869,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3126786008848669196, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126786008848669196, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: m_Name
       value: PressableButtonHoloLens2_32x96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126786008848669196, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3126786009469193090, guid: 4f44c0d070528944c9bff425c6932763, type: 3}
       propertyPath: m_Mesh
