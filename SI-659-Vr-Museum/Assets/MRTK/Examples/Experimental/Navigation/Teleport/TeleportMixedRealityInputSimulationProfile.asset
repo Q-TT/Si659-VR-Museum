@@ -30,7 +30,7 @@ MonoBehaviour:
     code: 1
   mouseLookToggle: 0
   isControllerLookInverted: 1
-  cameraOriginOffset: {x: 0, y: 2.7, z: 0}
+  cameraOriginOffset: {x: 0, y: 1.7, z: 0}
   currentControlMode: 0
   fastControlKey:
     bindingType: 2
