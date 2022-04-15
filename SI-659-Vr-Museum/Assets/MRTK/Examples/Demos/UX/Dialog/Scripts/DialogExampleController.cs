@@ -76,7 +76,7 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Experimental.DialogTest
         /// </summary>
         public void OpenConfirmationDialogMedium()
         {
-            Dialog.Open(DialogPrefabMedium, DialogButtonType.OK, "Confirmation Dialog, Medium, Near", "This is an example of a medium dialog with only one button, placed at near interaction range", true);
+            Dialog.Open(DialogPrefabMedium, DialogButtonType.OK, "Selling History", "This paint has been sold $1.5 million in 2021; 5 Bitcones in 2025; 10 Bitcones in 2030.", true);
         }
 
         /// <summary>
@@ -84,7 +84,7 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Experimental.DialogTest
         /// </summary>
         public void OpenChoiceDialogMedium()
         {
-            Dialog myDialog = Dialog.Open(DialogPrefabMedium, DialogButtonType.Yes | DialogButtonType.No, "Choice Dialog, Medium, Far", "This is an example of a medium dialog with a choice message for the user, placed at far interaction range", false);
+            Dialog myDialog = Dialog.Open(DialogPrefabMedium, DialogButtonType.Yes | DialogButtonType.No, "Add to your account", "Woman with a Parasol – Madame Monet and Her Son. This painting is worth 15 Bitcones in total at this moment. You can purchase it with 4 installations throughout 4 years: 50%; 20%; 20%; 10%. Are you sure you want to continue to check out?", false);
             if (myDialog != null)
             {
                 myDialog.OnClosed += OnClosedDialogEvent;
